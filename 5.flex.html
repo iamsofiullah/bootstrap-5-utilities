@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Utilities</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        div,span {
+            min-height: 70px;
+            min-width: 70px;
+            margin: 2px;
+        }
+        body {
+            margin-bottom: 500px;
+        }
+        hr{
+            margin: 50px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- DISPLAY FLEX -->
+
+    <div class="d-flex">
+        <div class="border"></div>
+        <div class="border"></div>
+        <div class="border"></div>
+    </div>
+
+    <!-- FLEX WRAP-->
+
+    <div class="d-flex flex-wrap">
+        <div class="border"></div>
+        <div class="border"></div>
+        <div class="border"></div>
+        <div class="border"></div>
+        <div class="border"></div>
+        <div class="border"></div>
+        <div class="border"></div>
+        <div class="border"></div>
+        <div class="border"></div>
+        <div class="border"></div>
+        <div class="border"></div>
+        <div class="border"></div>
+        <div class="border"></div>
+    </div>
+
+    <!-- FLEX DIRECTION ROW-->
+
+    <div class="d-flex flex-row">
+        <div class="border border-3 border-success">1</div>
+        <div class="border border-3 border-success">2</div>
+        <div class="border border-3 border-success">3</div>
+    </div>
+
+    <!-- FLEX DIRECTION COLUMN-->
+
+    <div class="d-flex flex-column">
+        <div class="border border-3 border-success">1</div>
+        <div class="border border-3 border-success">2</div>
+        <div class="border border-3 border-success">3</div>
+    </div>
+
+    <!-- FLEX DIRECTION ROW REVERSE-->
+
+    <div class="d-flex flex-row-reverse">
+        <div class="border border-3 border-success">1</div>
+        <div class="border border-3 border-success">2</div>
+        <div class="border border-3 border-success">3</div>
+    </div>
+
+    <!-- FLEX DIRECTION COLUMN REVERSE-->
+
+    <div class="d-flex flex-column-reverse">
+        <div class="border border-3 border-success">1</div>
+        <div class="border border-3 border-success">2</div>
+        <div class="border border-3 border-success">3</div>
+    </div>
+
+    <hr>
+
+    <!-- JUSTIFY CONTENT START-->
+
+    <div class="d-flex justify-content-start">
+        <div class="border border-3 border-success">1</div>
+        <div class="border border-3 border-success">2</div>
+        <div class="border border-3 border-success">3</div>
+    </div>
+
+    <!-- JUSTIFY CONTENT END-->
+
+    <div class="d-flex justify-content-end">
+        <div class="border border-3 border-success">1</div>
+        <div class="border border-3 border-success">2</div>
+        <div class="border border-3 border-success">3</div>
+    </div>
+
+    <!-- JUSTIFY CONTENT CENTER-->
+
+    <div class="d-flex justify-content-center">
+        <div class="border border-3 border-success">1</div>
+        <div class="border border-3 border-success">2</div>
+        <div class="border border-3 border-success">3</div>
+    </div>
+
+    <!-- JUSTIFY CONTENT BETWEEN-->
+
+    <div class="d-flex justify-content-between">
+        <div class="border border-3 border-success">1</div>
+        <div class="border border-3 border-success">2</div>
+        <div class="border border-3 border-success">3</div>
+    </div>
+
+    <!-- JUSTIFY CONTENT AROUND-->
+
+    <div class="d-flex justify-content-around">
+        <div class="border border-3 border-success">1</div>
+        <div class="border border-3 border-success">2</div>
+        <div class="border border-3 border-success">3</div>
+    </div>
+
+    <!-- JUSTIFY CONTENT EVENLY-->
+
+    <div class="d-flex justify-content-evenly">
+        <div class="border border-3 border-success">1</div>
+        <div class="border border-3 border-success">2</div>
+        <div class="border border-3 border-success">3</div>
+    </div>
+
+    <hr>
+
+    <!-- ALIGN ITEMS START -->
+
+    <div class="d-flex bg-dark align-items-start" style="height: 300px;">
+        <div class="border border-3 border-light">1</div>
+        <div class="border border-3 border-light">2</div>
+        <div class="border border-3 border-light">3</div>
+    </div>
+
+    <!-- ALIGN ITEMS END -->
+
+    <div class="d-flex bg-dark align-items-end" style="height: 300px;">
+        <div class="border border-3 border-light">1</div>
+        <div class="border border-3 border-light">2</div>
+        <div class="border border-3 border-light">3</div>
+    </div>
+
+    <!-- ALIGN ITEMS CENTER -->
+
+    <div class="d-flex bg-dark align-items-center" style="height: 300px;">
+        <div class="border border-3 border-light">1</div>
+        <div class="border border-3 border-light">2</div>
+        <div class="border border-3 border-light">3</div>
+    </div>
+
+    <!-- ALIGN ITEMS STRETCH -->
+
+    <div class="d-flex bg-dark align-items-stretch" style="height: 300px;">
+        <div class="border border-3 border-light">1</div>
+        <div class="border border-3 border-light">2</div>
+        <div class="border border-3 border-light">3</div>
+    </div>
+
+    <hr>
+
+    <!-- ALIGN SELF -->
+
+    <div class="d-flex bg-dark align-items-center" style="height: 300px;">
+        <div class="border border-3 border-light">1</div>
+        <div class="border border-3 border-light align-self-start">2</div>
+        <div class="border border-3 border-light align-self-end">3</div>
+        <div class="border border-3 border-light align-self-stretch">3</div>
+        <div class="border border-3 border-light align-self-center">3</div>
+    </div>
+
+    <hr>
+
+    <!-- FLEX ORDER -->
+
+    <div class="d-flex">
+        <div class="border border-3 border-success order-last">1</div>
+        <div class="border border-3 border-success order-5">2</div>
+        <div class="border border-3 border-success order-4">3</div>
+        <div class="border border-3 border-success order-3">4</div>
+        <div class="border border-3 border-success order-2">5</div>
+        <div class="border border-3 border-success order-first">6</div>
+    </div>
+    
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

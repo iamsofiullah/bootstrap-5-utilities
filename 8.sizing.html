@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Utilities</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        div {
+            margin: 10px;
+            color: white;
+            padding: 5px;
+            /* min-height: 50px; */
+            /* display: inline-block; */
+        }
+
+        body {
+            margin-bottom: 500px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- SIZINGS RELATIVE TO PARENT -->
+
+    <div class="bg-primary w-25">Width 25%</div>
+    <div class="bg-primary w-50">Width 505%</div>
+    <div class="bg-primary w-75">Width 75%</div>
+    <div class="bg-primary w-auto">Width auto</div>
+
+    <div class="bg-dark" style="height: 300px;">
+       <div class="bg-primary d-inline-block h-25">Height 25%</div> 
+       <div class="bg-primary d-inline-block h-50">Height 50%</div> 
+       <div class="bg-primary d-inline-block h-75">Height 75%</div> 
+       <div class="bg-primary d-inline-block h-auto">Height auto</div> 
+    </div>
+
+    <!-- RELATIVE TO THE VIEWPORT -->
+
+    <div class="bg-primary vh-100"></div>
+    <div class="bg-primary min-vh-100"></div>
+
+    <div class="bg-primary vw-100"></div>
+    <div class="bg-primary min-vw-100"></div>
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

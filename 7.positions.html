@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Utilities</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        div>div {
+            min-height: 70px;
+            min-width: 70px;
+            margin: 20px;
+            display: inline-block;
+            background-color: #1e1e1e;
+        }
+        div{
+            min-width: 50px;
+            min-height: 50px;
+        }
+        body {
+            margin-bottom: 500px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- POSITIONS -->
+
+    <div class="position-relative" style="height: 100vh;">
+        <div class="position-absolute"></div>
+        <div class="position-absolute bottom-50 end-50"></div>
+        <div class="position-absolute bottom-0 end-0"></div>
+        <div class="position-absolute top-50 start-50 translate-middle"></div>
+        <div class="position-absolute top-o end-0"></div>
+        <!-- <div class="position-absolute top-100 start-0"></div> -->
+    </div>
+
+    <div class="position-fixed bg-primary top-50 start-50"></div>
+
+    <button class="btn btn-primary position-relative">
+        Mails
+        <span class="position-absolute bg-secondary badge rounded-pill top-0 start-100 translate-middle">+99</span>
+    </button>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
